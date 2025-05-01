@@ -1,0 +1,102 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Wrapper to dim background a bit */
+.wrapper {
+    background-color: rgba(241, 218, 218, 0.521);
+    padding: 30px;
+    border-radius: 12px;
+    max-width: 700px;
+    margin: 40px auto;
+    box-shadow: 0 0 20px rgba(0,0,0,0.15);
+}
+
+/* Headings */
+h2 {
+    color: purplex;
+    margin-bottom: 10px;
+    text-align: center;
+    
+}
+
+/* Form Styles */
+form {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* Input Fields */
+input[type="file"],
+input[type="text"] {
+    padding: 10px;
+    border: 1px solid beige;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Button Styles */
+button {
+    background-color: lightseagreen;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    
+}
+
+button:hover {
+    background-color: purple;
+}
+
+/* Message Box */
+p {
+    background-color: #d4edda;
+    color: #155724;
+    padding: 10px;
+    border-radius: 5px;
+    max-width: 500px;
+    margin: 10px auto;
+    border: 1px solid #c3e6cb;
+}
+
+/* Chat Container */
+.chat-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 20px;
+    background: #ffffffd9;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
+
+/* Bot Message Bubble */
+.message.bot {
+    align-self: flex-start;
+    background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+    color: #333;
+    padding: 15px 20px;
+    border-radius: 20px 20px 20px 0;
+    font-size: 15px;
+    line-height: 1.5;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    animation: fadeInLeft 0.4s ease-in-out;
+}
+
